@@ -8,8 +8,10 @@ $(document).ready(function() {
   var $svg = $("svg");
   var $word = $(".word");
 
-  // when the animation iterates
-  $("h1").on('click', function() {
+
+
+
+  $("h1").on('click tap touch', function() {
 
     // replace the header with a random word
     var word = words[Math.floor(Math.random() * words.length)] + "!";
