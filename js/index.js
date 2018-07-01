@@ -11,7 +11,7 @@ $(document).ready(function() {
 
 
 
-  $("h1").on('click tap touch', function() {
+  $("h1").on('click touchstart', function() {
 
     // replace the header with a random word
     var word = words[Math.floor(Math.random() * words.length)] + "!";
